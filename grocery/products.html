@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Checklist</title>
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="index.html"></form>
+            <div class="fa fa-right-from-bracket"  id="logout-btn"></div>
+        </form>
+        <h1>Shopping List</h1>
+        <button id="openModalBtn" class="btn">Add To List</button>
+        
+        <div class="filter-sort-container">
+            <div class="filter">
+                <label for="categoryFilter">Filter by Category:</label>
+                <select id="categoryFilter">
+                    <option value="">All</option>
+                    <option value="Fruits">Fruits</option>
+                    <option value="Vegetables">Vegetables</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Snacks">Snacks</option>
+                </select>
+            </div>
+            
+            <div class="sort">
+                <label for="sortOptions">Sort by:</label>
+                <select id="sortOptions">
+                    <option value="name">Product Name</option>
+                    <option value="price">Price</option>
+                    <option value="weight">Weight</option>
+                </select>
+            </div>
+        </div>
+
+        <button id="deleteAllBtn" class="btn">Delete All</button> <!-- Moved Delete All button here -->
+
+        <div class="product-list" id="productList">
+            <!-- Product items will be added here -->
+        </div>
+    </div>  
+    <!-- Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Product List</h2>
+            <div class="product-form">
+                <input type="text" id="productName" placeholder="Product Name" required>
+                <input type="text" id="brand" placeholder="Brand" required>
+                <input type="number" id="price" placeholder="Price" required>
+                <input type="text" id="weight" placeholder="Weight/Volume" required>
+                <input type="number" id="quantity" placeholder="Quantity" required>
+                <input type="text" id="store" placeholder="Store" required>
+                
+                <select id="category" required>
+                    <option value="">Select Category</option>
+                    <option value="Fruits">Fruits</option>
+                    <option value="Vegetables">Vegetables</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Snacks">Snacks</option>
+                </select>
+
+                <input type="file" id="productImage" accept="image/*">
+                <button id="addProductBtn" class="btn">Add To List</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/products.js"></script>
+</body>
+</html>
