@@ -1,0 +1,108 @@
+* {
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #405D72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #F7E7DC;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Use a percentage width for better responsiveness */
+    max-width: 400px; /* Set a max width for larger screens */
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #405D72;
+    text-shadow: 1.2px 1.5px #758694;
+}
+
+input[type="text"],
+input[type="password"],
+.search-bar {
+    width: 95%; /* Full width for inputs */
+    padding: 10px; /* Padding for comfort */
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #405D72;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #758694;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+    color: #405D72;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) and (min-width: 320px) {
+    .login-container {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Adjust heading size */
+    }
+
+    input[type="text"],
+    input[type="password"],
+    .search-bar {
+        padding: 8px; /* Reduce padding for inputs */
+        font-size: 0.9em; /* Adjust font size for inputs */
+    }
+
+    input[type="submit"] {
+        padding: 8px; /* Adjust padding for submit button */
+        font-size: 1em; /* Ensure readability */
+    }
+
+    .register-link {
+        font-size: 0.9em; /* Adjust font size for register link */
+    }
+}
+
+/* Additional styles for very small screens */
+@media (max-width: 320px) {
+    .login-container {
+        padding: 10px; /* Further reduce padding */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Further adjust heading size */
+    }
+
+    input[type="text"],
+    input[type="password"],
+    .search-bar {
+        padding: 6px; /* Further reduce padding for inputs */
+        font-size: 0.8em; /* Further adjust font size for inputs */
+    }
+
+    input[type="submit"] {
+        padding: 6px; /* Adjust padding for submit button */
+    }
+}
