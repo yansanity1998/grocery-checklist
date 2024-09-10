@@ -84,14 +84,5 @@
                 <td>
 			<img src= "removeall.png" height=350 width=200>
 		</td>
-	</tr>
-	<thead>
-		<td>
-			<b> Category </b>
-		</td>
-		<td>
-			<b> Sorting </b>
-		</td>
-	</thead>
-	
+	</tr>	
 </table>
