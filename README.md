@@ -57,10 +57,10 @@
 			<img src= "login.png" height=350 width=200>
 		</td>
 		<td>
-			<img src= "list.png" height=350 width=200>
+			<img src= "dashboard.png" height=350 width=200>
 		</td>
                 <td>
-			<img src= "checked.png" height=350 width=200>
+			<img src= "product-list.png" height=350 width=200>
 		</td>
 	</tr>
 	<thead>
@@ -76,13 +76,13 @@
 	</thead>
 	<tr>
 		<td>
-			<img src= "add-item.png" height=350 width=200>
+			<img src= "favorite.png" height=350 width=200>
 		</td>
 		<td>
-			<img src= "edit-item.png" height=350 width=200>
+			<img src= "check.png" height=350 width=200>
 		</td>
                 <td>
-			<img src= "search.png" height=350 width=200>
+			<img src= "removeall.png" height=350 width=200>
 		</td>
 	</tr>
 	<thead>
