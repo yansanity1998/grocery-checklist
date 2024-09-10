@@ -40,7 +40,7 @@
 <p>• The application is optimized for various screen sizes, ensuring a seamless experience on mobile devices and desktops.<br>
 • Media queries adjust the layout for smaller screens, maintaining usability.</p>
 
-<h2>🖵Screenshots🖵</h2>
+<h2>📸Screenshots📸</h2>
 <table>
 	<thead>
 		<td>
