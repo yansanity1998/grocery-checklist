@@ -57,7 +57,7 @@
 			<img src= "login.png" height=350 width=200>
 		</td>
 		<td>
-			<img src= "dashboard.png" height=350 width=200>
+			<img src= "landingpage.png" height=350 width=200>
 		</td>
                 <td>
 			<img src= "product-list.png" height=350 width=200>
