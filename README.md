@@ -46,10 +46,10 @@
 			<b> Login </b>
 		</td>
 		<td>
-			<b> Grocery List </b>
+			<b> Dashboard </b>
 		</td>
                 <td>
-			<b> Check Box </b>
+			<b> Product List </b>
 		</td>
 	</thead>
 	<tr>
@@ -65,13 +65,13 @@
 	</tr>
 	<thead>
 		<td>
-			<b> Modal (add-item) </b>
+			<b> Favorite </b>
 		</td>
 		<td>
-			<b> Modal (edit-item) </b>
+			<b>Check-box </b>
 		</td>
                 <td>
-			<b> Search Bar </b>
+			<b> Removeall </b>
 		</td>
 	</thead>
 	<tr>
@@ -93,12 +93,5 @@
 			<b> Sorting </b>
 		</td>
 	</thead>
-	<tr>
-		<td>
-			<img src= "category.png" height=130 width=200>
-		</td>
-		<td>
-			<img src= "sort.png" height=130 width=200>
-		</td>
-	</tr>
+	
 </table>
