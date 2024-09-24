@@ -239,7 +239,7 @@ document.getElementById('sortOptions').addEventListener('change', function() {
 
 // Logout
 document.getElementById('logout-btn').addEventListener('click', function() {
-    window.location.href = '../index.html'; // Redirect to login page
+    window.location.href = '../grocery/index.html'; // Redirect to login page
 });
 
 // Delete All Products Functionality
