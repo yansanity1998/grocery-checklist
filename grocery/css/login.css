@@ -1,0 +1,127 @@
+* {
+    text-decoration: none;
+}
+
+.login-container {
+    background-color: #ECFFE6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%; 
+    max-width: 400px; 
+    margin: 0 10px; 
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1A5319;
+    text-shadow: 1.2px 1.5px #758694;
+}
+
+input[type="text"],
+input[type="password"],
+.search-bar {
+    width: 95%; 
+    padding: 10px; 
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #1A5319;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #399918;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+    color: #405D72;
+}
+
+@media (max-width: 600px) and (min-width: 320px) {
+    .login-container {
+        padding: 15px; 
+        margin: 0 15px; 
+    }
+
+    h2 {
+        font-size: 1.5em; 
+    }
+
+    input[type="text"],
+    input[type="password"],
+    .search-bar {
+        padding: 8px; 
+        font-size: 0.9em; 
+    }
+
+    input[type="submit"] {
+        padding: 8px; 
+        font-size: 1em; 
+    }
+
+    .register-link {
+        font-size: 0.9em; 
+    }
+}
+
+@media (max-width: 320px) {
+    .login-container {
+        padding: 10px; 
+        margin: 0 10px; 
+    }
+
+    h2 {
+        font-size: 1.2em; 
+    }
+
+    input[type="text"],
+    input[type="password"],
+    .search-bar {
+        padding: 6px; 
+        font-size: 0.8em; 
+    }
+
+    input[type="submit"] {
+        padding: 6px; 
+    }
+}
+
+@media (max-width: 425px) {
+    .login-container {
+        padding: 12px; 
+        margin: 0 15px; 
+    }
+
+    h2 {
+        font-size: 1.5em; 
+    }
+
+    input[type="text"],
+    input[type="password"],
+    .search-bar {
+        padding: 8px; 
+        font-size: 0.9em; 
+    }
+
+    input[type="submit"] {
+        padding: 8px; 
+        font-size: 1em; 
+    }
+
+    .register-link {
+        font-size: 0.9em; 
+    }
+}
